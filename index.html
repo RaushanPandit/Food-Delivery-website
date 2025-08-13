@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JT Geats</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Squada+One&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google icons (for carousel next/previous arrow) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+      rel="stylesheet"
+    />
+    <!-- swiperjs cdn link-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- Header / Navbar -->
+    <header>
+      <nav class="navbar">
+        <div class="container">
+          <div class="nav-container flex justify-between align-center">
+            <div class="logo">JT Geats</div>
+
+            <div class="hamburger-menu-wrapper">
+              <button class="hamburger-btn">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+              </button>
+              <ul class="nav-links flex">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+            <div class="nav-icons">
+              <button class="search-btn">
+                <span><img src="assets/search.png" alt="" /></span>
+              </button>
+              <button class="cart-btn">
+                <span><img src="assets/shopping_bag.png" alt="" /></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero-section">
+        <div class="container">
+          <div class="hero-content-container flex justify-between align-start">
+            <div class="hero-content">
+              <div class="text-content">
+                <h1>Authentic Home food in India</h1>
+                <p>
+                  JT Geats is a courier service in which authentic home-cook
+                  food is delivered to a customer.
+                </p>
+              </div>
+              <form class="search-bar flex">
+                <input type="text" placeholder="Search the food you love" />
+                <button type="submit">Search</button>
+              </form>
+            </div>
+            <div class="hero-image">
+              <img src="assets/cuate.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- items section -->
+      <section class="items-section">
+        <div class="container">
+          <div class="items-wrapper">
+            <div class="items-section-heading">
+              <h2>Home Kitchen</h2>
+            </div>
+            <div class="items-grid">
+              <div class="item-card discount-card">
+                <div class="discount">
+                  <span>30%</span>
+                </div>
+                <img src="assets/items/item-1.png" alt="" />
+                <div class="item-info">
+                  <div
+                    class="flex justify-between align-center item-price-title-container"
+                  >
+                    <span class="item-title">Home made pizza</span>
+                    <span class="price">&#8377;150</span>
+                  </div>
+                  <div class="flex justify-between align-center">
+                    <div
+                      class="flex justify-between align-center item-time-rating-container"
+                    >
+                      <span class="rating flex justify-between align-center"
+                        ><img src="assets/items/star.png" alt="" />4.7</span
+                      >
+                      <span class="time">50-79 min</span>
+                    </div>
+                    <div class="addToCart btn">
+                      <img src="assets/items/plus.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item-card discount-card">
+                <div class="discount">
+                  <span>30%</span>
+                </div>
+                <img src="assets/items/item-2.png" alt="" />
+                <div class="item-info">
+                  <div
+                    class="flex justify-between align-center item-price-title-container"
+                  >
+                    <span class="item-title">Home made pizza</span>
+                    <span class="price">&#8377;150</span>
+                  </div>
+                  <div class="flex justify-between align-center">
+                    <div
+                      class="flex justify-between align-center item-time-rating-container"
+                    >
+                      <span class="rating flex justify-between align-center"
+                        ><img src="assets/items/star.png" alt="" />4.7</span
+                      >
+                      <span class="time">50-79 min</span>
+                    </div>
+                    <div class="addToCart btn">
+                      <img src="assets/items/plus.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item-card">
+                <img src="assets/items/item-3.png" alt="" />
+                <div class="item-info">
+                  <div
+                    class="flex justify-between align-center item-price-title-container"
+                  >
+                    <span class="item-title">Home made pizza</span>
+                    <span class="price">&#8377;150</span>
+                  </div>
+                  <div class="flex justify-between align-center">
+                    <div
+                      class="flex justify-between align-center item-time-rating-container"
+                    >
+                      <span class="rating flex justify-between align-center"
+                        ><img src="assets/items/star.png" alt="" />4.7</span
+                      >
+                      <span class="time">50-79 min</span>
+                    </div>
+                    <div class="addToCart btn">
+                      <img src="assets/items/plus.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- <div class="item-card">
+                <img src="assets/items/item-5.png" alt="" />
+                <div class="item-info">
+                  <div class="flex item-price-title-container">
+                    <span class="item-title">Home made pizza</span>
+                    <span class="price">&#8377;150</span>
+                  </div>
+                  <div class="flex">
+                    <div class="flex item-time-rating-container">
+                      <span class="rating flex"
+                        ><img src="assets/items/star.png" alt="" />4.7</span
+                      >
+                      <span class="time">50-79 min</span>
+                    </div>
+                    <div class="addToCart btn">
+                      <img src="assets/items/plus.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+
+              <div class="item-card discount-card">
+                <div class="discount">
+                  <span>30%</span>
+                </div>
+                <img src="assets/items/item-4.png" alt="" />
+                <div class="item-info">
+                  <div
+                    class="flex justify-between align-center item-price-title-container"
+                  >
+                    <span class="item-title">Home made pizza</span>
+                    <span class="price">&#8377;150</span>
+                  </div>
+                  <div class="flex justify-between align-center">
+                    <div
+                      class="flex justify-between align-center item-time-rating-container"
+                    >
+                      <span class="rating flex justify-between align-center"
+                        ><img src="assets/items/star.png" alt="" />4.7</span
+                      >
+                      <span class="time">50-79 min</span>
+                    </div>
+                    <div class="addToCart btn">
+                      <img src="assets/items/plus.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item-card">
+                <img src="assets/items/item-5.png" alt="" />
+                <div class="item-info">
+                  <div
+                    class="flex justify-between align-center item-price-title-container"
+                  >
+                    <span class="item-title">Home made pizza</span>
+                    <span class="price">&#8377;150</span>
+                  </div>
+                  <div class="flex justify-between align-center">
+                    <div
+                      class="flex justify-between align-center item-time-rating-container"
+                    >
+                      <span class="rating flex justify-between align-center"
+                        ><img src="assets/items/star.png" alt="" />4.7</span
+                      >
+                      <span class="time">50-79 min</span>
+                    </div>
+                    <div class="addToCart btn">
+                      <img src="assets/items/plus.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item-card">
+                <img src="assets/items/item-6.png" alt="" />
+                <div class="item-info">
+                  <div
+                    class="flex justify-between align-center item-price-title-container"
+                  >
+                    <span class="item-title">Home made pizza</span>
+                    <span class="price">&#8377;150</span>
+                  </div>
+                  <div class="flex justify-between align-center">
+                    <div
+                      class="flex justify-between align-center item-time-rating-container"
+                    >
+                      <span class="rating flex justify-between align-center"
+                        ><img src="assets/items/star.png" alt="" />4.7</span
+                      >
+                      <span class="time">50-79 min</span>
+                    </div>
+                    <div class="addToCart btn">
+                      <img src="assets/items/plus.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item-card discount-card">
+                <div class="discount">
+                  <span>30%</span>
+                </div>
+                <img src="assets/items/item-7.png" alt="" />
+                <div class="item-info">
+                  <div
+                    class="flex justify-between align-center item-price-title-container"
+                  >
+                    <span class="item-title">Home made pizza</span>
+                    <span class="price">&#8377;150</span>
+                  </div>
+                  <div class="flex justify-between align-center">
+                    <div
+                      class="flex justify-between align-center item-time-rating-container"
+                    >
+                      <span class="rating flex justify-between align-center"
+                        ><img src="assets/items/star.png" alt="" />4.7</span
+                      >
+                      <span class="time">50-79 min</span>
+                    </div>
+                    <div class="addToCart btn">
+                      <img src="assets/items/plus.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item-card">
+                <img src="assets/items/item-8.png" alt="" />
+                <div class="item-info">
+                  <div
+                    class="flex justify-between align-center item-price-title-container"
+                  >
+                    <span class="item-title">Home made pizza</span>
+                    <span class="price">&#8377;150</span>
+                  </div>
+                  <div class="flex justify-between align-center">
+                    <div
+                      class="flex justify-between align-center item-time-rating-container"
+                    >
+                      <span class="rating flex justify-between align-center"
+                        ><img src="assets/items/star.png" alt="" />4.7</span
+                      >
+                      <span class="time">50-79 min</span>
+                    </div>
+                    <div class="addToCart btn">
+                      <img src="assets/items/plus.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item-card discount-card">
+                <div class="discount">
+                  <span>30%</span>
+                </div>
+                <img src="assets/items/item-1.png" alt="" />
+                <div class="item-info">
+                  <div
+                    class="flex justify-between align-center item-price-title-container"
+                  >
+                    <span class="item-title">Home made pizza</span>
+                    <span class="price">&#8377;150</span>
+                  </div>
+                  <div class="flex justify-between align-center">
+                    <div
+                      class="flex justify-between align-center item-time-rating-container"
+                    >
+                      <span class="rating flex justify-between align-center"
+                        ><img src="assets/items/star.png" alt="" />4.7</span
+                      >
+                      <span class="time">50-79 min</span>
+                    </div>
+                    <div class="addToCart btn">
+                      <img src="assets/items/plus.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item-card discount-card">
+                <div class="discount">
+                  <span>30%</span>
+                </div>
+                <img src="assets/items/item-3.png" alt="" />
+                <div class="item-info">
+                  <div
+                    class="flex justify-between align-center item-price-title-container"
+                  >
+                    <span class="item-title">Home made pizza</span>
+                    <span class="price">&#8377;150</span>
+                  </div>
+                  <div class="flex justify-between align-center">
+                    <div
+                      class="flex justify-between align-center item-time-rating-container"
+                    >
+                      <span class="rating flex justify-between align-center"
+                        ><img src="assets/items/star.png" alt="" />4.7</span
+                      >
+                      <span class="time">50-79 min</span>
+                    </div>
+                    <div class="addToCart btn">
+                      <img src="assets/items/plus.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item-card discount-card">
+                <div class="discount">
+                  <span>30%</span>
+                </div>
+                <img src="assets/items/item-5.png" alt="" />
+                <div class="item-info">
+                  <div
+                    class="flex justify-between align-center item-price-title-container"
+                  >
+                    <span class="item-title">Home made pizza</span>
+                    <span class="price">&#8377;150</span>
+                  </div>
+                  <div class="flex justify-between align-center">
+                    <div
+                      class="flex justify-between align-center item-time-rating-container"
+                    >
+                      <span class="rating flex justify-between align-center"
+                        ><img src="assets/items/star.png" alt="" />4.7</span
+                      >
+                      <span class="time">50-79 min</span>
+                    </div>
+                    <div class="addToCart btn">
+                      <img src="assets/items/plus.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item-card">
+                <img src="assets/items/item-7.png" alt="" />
+                <div class="item-info">
+                  <div
+                    class="flex justify-between align-center item-price-title-container"
+                  >
+                    <span class="item-title">Home made pizza</span>
+                    <span class="price">&#8377;150</span>
+                  </div>
+                  <div class="flex justify-between align-center">
+                    <div
+                      class="flex justify-between align-center item-time-rating-container"
+                    >
+                      <span class="rating flex justify-between align-center"
+                        ><img src="assets/items/star.png" alt="" />4.7</span
+                      >
+                      <span class="time">50-79 min</span>
+                    </div>
+                    <div class="addToCart btn">
+                      <img src="assets/items/plus.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Popular items -->
+
+            <div class="popular-items-container">
+              <h2>Popular Items</h2>
+              <div
+                class="carousel-main-wrapper flex justify-between align-center"
+              >
+                <button
+                  class="arrow-left arrow flex justify-center align-center"
+                >
+                  <span class="material-symbols-outlined"> arrow_left </span>
+                </button>
+                <div class="swiper">
+                  <div class="swiper-wrapper carousel-track">
+                    <div class="swiper-slide card item-card discount-card">
+                      <div class="discount">
+                        <span>20%</span>
+                      </div>
+                      <img src="assets/items/item-3.png" alt="" />
+                      <div class="item-info">
+                        <div
+                          class="flex justify-between align-center item-price-title-container"
+                        >
+                          <span class="item-title">Home made pizza</span>
+                          <span class="price">&#8377;150</span>
+                        </div>
+                        <div class="flex justify-between align-center">
+                          <div
+                            class="flex justify-between align-center item-time-rating-container"
+                          >
+                            <span
+                              class="rating flex justify-between align-center"
+                              ><img
+                                src="assets/items/star.png"
+                                alt=""
+                              />4.7</span
+                            >
+                            <span class="time">50-79 min</span>
+                          </div>
+                          <div class="addToCart btn">
+                            <img src="assets/items/plus.png" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide card item-card discount-card">
+                      <div class="discount">
+                        <span>50%</span>
+                      </div>
+                      <img src="assets/items/item-4.png" alt="" />
+                      <div class="item-info">
+                        <div
+                          class="flex justify-between align-center item-price-title-container"
+                        >
+                          <span class="item-title">Home made pizza</span>
+                          <span class="price">&#8377;150</span>
+                        </div>
+                        <div class="flex justify-between align-center">
+                          <div
+                            class="flex justify-between align-center item-time-rating-container"
+                          >
+                            <span class="rating flex"
+                              ><img
+                                src="assets/items/star.png"
+                                alt=""
+                              />4.7</span
+                            >
+                            <span class="time">50-79 min</span>
+                          </div>
+                          <div class="addToCart btn">
+                            <img src="assets/items/plus.png" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide card item-card">
+                      <img src="assets/items/item-5.png" alt="" />
+                      <div class="item-info">
+                        <div
+                          class="flex justify-between align-center item-price-title-container"
+                        >
+                          <span class="item-title">Home made pizza</span>
+                          <span class="price">&#8377;150</span>
+                        </div>
+                        <div class="flex justify-between align-center">
+                          <div
+                            class="flex justify-between align-center item-time-rating-container"
+                          >
+                            <span
+                              class="rating flex justify-between align-center"
+                              ><img
+                                src="assets/items/star.png"
+                                alt=""
+                              />4.7</span
+                            >
+                            <span class="time">50-79 min</span>
+                          </div>
+                          <div class="addToCart btn">
+                            <img src="assets/items/plus.png" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide card item-card discount-card">
+                      <div class="discount">
+                        <span>25%</span>
+                      </div>
+                      <img src="assets/items/item-7.png" alt="" />
+                      <div class="item-info">
+                        <div
+                          class="flex justify-between align-center item-price-title-container"
+                        >
+                          <span class="item-title">Home made pizza</span>
+                          <span class="price">&#8377;150</span>
+                        </div>
+                        <div class="flex justify-between align-center">
+                          <div
+                            class="flex justify-between align-center item-time-rating-container"
+                          >
+                            <span
+                              class="rating flex justify-between align-center"
+                              ><img
+                                src="assets/items/star.png"
+                                alt=""
+                              />4.7</span
+                            >
+                            <span class="time">50-79 min</span>
+                          </div>
+                          <div class="addToCart btn">
+                            <img src="assets/items/plus.png" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide card item-card discount-card">
+                      <div class="discount">
+                        <span>50%</span>
+                      </div>
+                      <img src="assets/items/item-8.png" alt="" />
+                      <div class="item-info">
+                        <div
+                          class="flex justify-between align-center item-price-title-container"
+                        >
+                          <span class="item-title">Home made pizza</span>
+                          <span class="price">&#8377;150</span>
+                        </div>
+                        <div class="flex justify-between align-center">
+                          <div
+                            class="flex justify-between align-center item-time-rating-container"
+                          >
+                            <span
+                              class="rating flex justify-between align-center"
+                              ><img
+                                src="assets/items/star.png"
+                                alt=""
+                              />4.7</span
+                            >
+                            <span class="time">50-79 min</span>
+                          </div>
+                          <div class="addToCart btn">
+                            <img src="assets/items/plus.png" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide card item-card">
+                      <img src="assets/items/item-2.png" alt="" />
+                      <div class="item-info">
+                        <div
+                          class="flex justify-between align-center item-price-title-container"
+                        >
+                          <span class="item-title">Home made pizza</span>
+                          <span class="price">&#8377;150</span>
+                        </div>
+                        <div class="flex justify-between align-center">
+                          <div
+                            class="flex justify-between align-center item-time-rating-container"
+                          >
+                            <span
+                              class="rating flex justify-between align-center"
+                              ><img
+                                src="assets/items/star.png"
+                                alt=""
+                              />4.7</span
+                            >
+                            <span class="time">50-79 min</span>
+                          </div>
+                          <div class="addToCart btn">
+                            <img src="assets/items/plus.png" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="arrow-right arrow">
+                  <span class="material-symbols-outlined"> arrow_right </span>
+                </button>
+              </div>
+              <button class="request-btn">Request a Dish</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Reqest dish modal -->
+        <div
+          id="requestDishModal"
+          class="modal isHidden flex justify-center align-center"
+        >
+          <div class="modal-content flex justify-center align-center flex-col">
+            <h2 id="modalTitle">Request a Dish</h2>
+
+            <form id="dishForm" class="flex flex-col">
+              <div class="dish-input-row flex">
+                <input
+                  class="dish-name"
+                  type="text"
+                  placeholder="Dish Name"
+                  name="dish-name"
+                  required
+                />
+                <input
+                  class="dish-quantity"
+                  type="number"
+                  name="dish-quantity"
+                  placeholder="Enter the quantity"
+                  required
+                />
+              </div>
+              <textarea
+                class="dish-description"
+                placeholder="Description of the dish"
+                rows="5"
+                id="dishDescription"
+                name="dishDescription"
+              ></textarea>
+              <div class="dish-action-btns flex justify-center">
+                <button class="cancel-btn btn dishModalBtn">Cancel</button>
+
+                <button type="hidden" class="submit-btn btn dishModalBtn">
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- video-section  -->
+      <section class="video-section">
+        <div class="container">
+          <div
+            class="video-section-content-container flex flex-col align-center"
+          >
+            <div class="text-content">
+              <h2>We are providing best home cooked food delivery service.</h2>
+              <p>
+                Away from home and craving the tasty homemade recipes? Choose
+                from a selection of our delicious home cooked dishes
+              </p>
+            </div>
+
+            <div class="video-container flex justify-center align-center">
+              <video id="video" src="assets/cooking.mp4" loop></video>
+              <button
+                class="play-button flex justify-center align-center"
+                id="toggleVisible"
+              >
+                <img src="assets/arrow-right.svg" alt="Play" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="contact-section">
+        <div class="container">
+          <div class="contact-container flex justify-between align-center">
+            <div class="contact-form">
+              <div class="contact-text">
+                <h3>Do you have a question or want to become a seller?</h3>
+                <p>
+                  Fill this form and our manager will contact you next 48 hours.
+                </p>
+              </div>
+
+              <form>
+                <div class="input-row flex justify-between">
+                  <input type="text" placeholder="Your Name" required />
+                  <input type="email" placeholder="Your e-mail" required />
+                </div>
+                <textarea
+                  placeholder="Your message"
+                  rows="5"
+                  required
+                ></textarea>
+                <button type="submit" class="submit-btn">Submit</button>
+              </form>
+            </div>
+            <div class="contact-image">
+              <img src="assets/food-delivery.svg" alt="Delivery rider" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-container flex justify-between align-center">
+          <div class="footer-left">
+            <div class="logo">
+              <h2>JTGEats</h2>
+            </div>
+          </div>
+
+          <ul class="footer-links flex justify-between align-center">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+
+          <div class="footer-social flex justify-between align-center">
+            <a href="#"><img src="assets/facebook.png" alt="Facebook" /></a>
+            <a href="#"><img src="assets/instagram.png" alt="Instagram" /></a>
+          </div>
+        </div>
+        <div class="horizontal-rule"></div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,307 @@
+/*>>>>----- <<< MEDIA QUERY FOR SCREEN SIZE <=1100PX >>> -----<<<< */
+@media screen and (max-width: 1100px) {
+  h1 {
+    font-size: 6rem;
+  }
+  /* <<--- HERO-SECTION --->> */
+  .hero-content-container {
+    padding-top: 10rem;
+  }
+
+  /* <<--- ITEMS-SECTION --->> */
+  .items-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem 2rem;
+    margin: 0 auto 8rem auto;
+  }
+  /* <<<--CAROUSEL SECTION-->>> */
+  .swiper {
+    width: 56%;
+    padding: 5rem 0;
+    margin: auto;
+  }
+
+  .swiper-slide-next {
+    box-shadow: none;
+  }
+}
+
+/*>>>>----- <<< MEDIA QUERY FOR SCREEN SIZE <=980PX >>> -----<<<< */
+
+@media screen and (max-width: 980px) {
+  h1 {
+    font-size: 5.5rem;
+  }
+  /* <<--- HERO-SECTION --->> */
+  .hero-content-container {
+    padding-top: 9rem;
+  }
+
+  /* <<--- ITEMS-SECTION --->> */
+  .items-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem 2rem;
+    margin: 0 auto 8rem auto;
+  }
+}
+
+/*>>>>----- <<< MEDIA QUERY FOR SCREEN SIZE <=850PX >>> -----<<<< */
+@media screen and (max-width: 850px) {
+  /* <<--- HERO-SECTION --->> */
+  .hero-section {
+    padding-bottom: 6.5rem;
+  }
+  .hero-content-container {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-content {
+    max-width: 100%;
+  }
+  .hero-image {
+    max-width: 60%;
+  }
+
+  /* <<--- ITEMS-SECTION --->> */
+  .items-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px 20px;
+    margin: 0 auto 8rem auto;
+  }
+
+  .contact-container {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-container .contact-form {
+    width: 100%;
+    max-width: 800px;
+  }
+  .contact-container .contact-text {
+    max-width: 100%;
+    margin-bottom: 4rem;
+    text-align: center;
+  }
+
+  /* <<<--CAROUSEL SECTION-->>> */
+  .swiper {
+    width: 34%;
+    padding: 0;
+  }
+
+  .swiper-slide-next {
+    box-shadow: none;
+  }
+}
+
+/*>>>>----- <<< MEDIA QUERY FOR SCREEN SIZE <=768PX >>> -----<<<< */
+@media (max-width: 768px) {
+  .hamburger-menu-wrapper {
+    display: flex;
+  }
+  .hamburger-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+    width: 3rem;
+    height: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+    order: 4;
+    margin: 1.5rem;
+  }
+
+  .hamburger-btn .bar {
+    transition: all 0.3s ease;
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 2px;
+  }
+
+  .hamburger-active .bar {
+    background-color: #000000;
+  }
+  .hamburger-active .bar:nth-child(1) {
+    transform: rotate(-45deg);
+    transform-origin: center;
+    position: relative;
+    top: 0.8rem;
+  }
+  .hamburger-active .bar:nth-child(2) {
+    display: none;
+  }
+  .hamburger-active .bar:nth-child(3) {
+    transform: rotate(45deg);
+    transform-origin: center;
+    position: relative;
+    top: -10px;
+  }
+
+  .nav-links {
+    visibility: hidden;
+    flex-direction: column;
+    position: absolute;
+    gap: 2rem;
+    right: 2rem;
+    background-color: var(--color-white);
+    padding: 6rem 7rem 4rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 9;
+  }
+  .nav-links a {
+    color: black;
+    transition: color 0.1s ease;
+  }
+  .nav-links a:hover {
+    color: var(--color-primary);
+  }
+
+  .nav-icons {
+    display: none;
+  }
+
+  .visible {
+    visibility: visible;
+  }
+
+  /* <<--- ITEMS-SECTION --->> */
+  .items-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2em;
+  }
+
+  /* Footer  */
+  footer .logo h2 {
+    font-size: 3rem;
+  }
+  footer .footer-container {
+    padding: 2rem 0px 0.8rem 0px;
+  }
+  footer .footer-container,
+  .footer-links,
+  .footer-social {
+    gap: 2rem;
+  }
+  footer .footer-links a {
+    font-size: 1.4rem;
+  }
+  .footer-container .footer-social a img {
+    width: 2rem;
+    height: 2rem;
+    object-fit: contain;
+    background-color: var(--color-white);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+  }
+}
+/*>>>>----- <<< MEDIA QUERY FOR SCREEN SIZE <=500PX >>> -----<<<< */
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 30px;
+  }
+
+  /* HERO  */
+  .hero-content-container {
+    padding-top: 5rem;
+  }
+
+  .hero-content h1 {
+    margin-bottom: 2rem;
+  }
+
+  .hero-content p {
+    font-size: var(--font-size-base);
+  }
+  .hero-content .search-bar {
+    max-width: 100%;
+    max-height: auto;
+  }
+
+  .hero-content .search-bar input {
+    height: auto;
+    padding: 1.4rem 1.6rem;
+  }
+  .hero-content .search-bar button {
+    padding: 1.2rem 2.4rem;
+  }
+
+  /* <<--- ITEMS-SECTION --->> */
+  .items-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  /* CAROUSEL */
+  .carousel-main-wrapper .arrow {
+    border: 3.5px solid var(--color-primary);
+    width: 4rem;
+    height: 4rem;
+  }
+  .carousel-main-wrapper .arrow .material-symbols-outlined {
+    font-size: 3rem;
+  }
+
+  /* <<<-- VIDEO SECTION -->>> */
+  .video-section .video-container video {
+    width: 100%;
+  }
+
+  /* <<<-- CONTACT CONTAINER-->>> */
+  .contact-container form .input-row {
+    flex-direction: column;
+  }
+
+  .contact-container form button {
+    width: 100x;
+  }
+
+  /* Footer  */
+  footer .logo h2 {
+    font-size: 2rem;
+  }
+  footer .footer-container,
+  .footer-links,
+  .footer-social {
+    gap: 1rem;
+  }
+  footer .footer-links a {
+    font-size: 1.2rem;
+  }
+  .footer-container .footer-social a img {
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 2px;
+  }
+
+  /* <<<--REQUEST DISH MODAL-->>> */
+  #dishForm {
+    width: 90%;
+  }
+
+  .dish-input-row {
+    flex-direction: column;
+  }
+}
+
+/*>>>>----- <<< MEDIA QUERY FOR SCREEN SIZE <=4000PX >>> -----<<<< */
+@media (max-width: 400px) {
+  /* CAROUSEL */
+  .carousel-main-wrapper .arrow {
+    width: 3rem;
+    height: 3rem;
+  }
+  .carousel-main-wrapper .arrow .material-symbols-outlined {
+    font-size: 3rem;
+  }
+}
